@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: beige;
+}
+
+.wrapper{
+    box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 39px 0px rgba(0,0,0,0.75);
+    background-color: white;
+    width: 20rem;
+    height: 25rem;
+    margin: 5rem auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2{
+    font-size: 4rem;
+    color: red;
+}
+
+.upleft{
+    margin-bottom: 20rem;
+    font-size: 2rem;
+    margin-left: 0.5rem;
+    color: red;
+}
+
+.downright{
+    margin-top: 20rem;
+    margin-right: 0.5rem;
+    font-size: 2rem;
+    color: red;
+    transform: rotate(180deg);
+}
+
+p{
+    font-size: 2rem;
+    color: black;
+}
